@@ -1,1 +1,0 @@
-D:\MAUI\repos\Maui-Android-Bindings-sample\Maui-App-sample\Maui-App-sample.csproj;x64

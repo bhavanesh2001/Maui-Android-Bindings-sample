@@ -1,0 +1,9 @@
+com/example/androidlibrary/MathOperations = Com.Example.Androidlibrary.MathOperations
+  <init>()V = .ctor()
+  add(II)I = Add(int, int)
+  divide(II)D = Divide(int, int)
+  modulus(II)I = Modulus(int, int)
+  multiply(II)I = Multiply(int, int)
+  power(DD)D = Power(double, double)
+  squareRoot(D)D = SquareRoot(double)
+  subtract(II)I = Subtract(int, int)

@@ -1,0 +1,194 @@
+<api
+  api-source="class-parse">
+  <package
+    name="com.example.androidlibrary"
+    jni-name="com/example/androidlibrary">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="MathOperations"
+      jni-signature="Lcom/example/androidlibrary/MathOperations;"
+      source-file-name="MathOperations.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="MathOperations"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="add"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(II)I">
+        <parameter
+          name="a"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="b"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="divide"
+        native="false"
+        return="double"
+        jni-return="D"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(II)D">
+        <parameter
+          name="a"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="b"
+          type="int"
+          jni-type="I" />
+        <exception
+          name="java/lang/ArithmeticException"
+          type="java.lang.ArithmeticException"
+          type-generic-aware="java.lang.ArithmeticException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="modulus"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(II)I">
+        <parameter
+          name="a"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="b"
+          type="int"
+          jni-type="I" />
+        <exception
+          name="java/lang/ArithmeticException"
+          type="java.lang.ArithmeticException"
+          type-generic-aware="java.lang.ArithmeticException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="multiply"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(II)I">
+        <parameter
+          name="a"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="b"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="power"
+        native="false"
+        return="double"
+        jni-return="D"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(DD)D">
+        <parameter
+          name="base"
+          type="double"
+          jni-type="D" />
+        <parameter
+          name="exponent"
+          type="double"
+          jni-type="D" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="squareRoot"
+        native="false"
+        return="double"
+        jni-return="D"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(D)D">
+        <parameter
+          name="number"
+          type="double"
+          jni-type="D" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="subtract"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(II)I">
+        <parameter
+          name="a"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="b"
+          type="int"
+          jni-type="I" />
+      </method>
+    </class>
+  </package>
+</api>
